@@ -2,7 +2,7 @@ import React from 'react';
 import Square from './Square';
 import calculateWinner from '../utils/calculateWinner';
 
-export default function Board({ xIsNext, squares, onPlay }) {
+export default function Board({ xIsNext, squares, onPlay, playerNames }) {
   function handleClick(i) {
     if (squares[i] || calculateWinner(squares)) {
       return;
@@ -14,8 +14,8 @@ export default function Board({ xIsNext, squares, onPlay }) {
 
   const winner = calculateWinner(squares);
   const status = winner
-    ? 'Winner: ' + winner
-    : 'Next player: ' + (xIsNext ? 'X' : 'O');
+    ? 'Winner: ' + (winner === 'X' ? playerNames.player1 : playerNames.player2)
+    : 'Next player: ' + (xIsNext ? `${playerNames.player1} (X)` : `${playerNames.player2} (O)`);
 
   return (
     <>
@@ -37,4 +37,4 @@ export default function Board({ xIsNext, squares, onPlay }) {
       </div>
     </>
   );
-} 
+}
