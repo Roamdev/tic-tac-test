@@ -26,4 +26,4 @@ export default function PlayerInputModal({ onSubmit }) {
       </form>
     </div>
   );
-} 
+}

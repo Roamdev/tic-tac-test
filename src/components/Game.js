@@ -54,4 +54,4 @@ export default function Game() {
       <button className="reset-button" onClick={() => handleReset()}>Reset Game</button>
     </div>
   );
-} 
+}
