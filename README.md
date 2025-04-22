@@ -12,7 +12,7 @@ This project is a React implementation of the Tic-Tac-Toe game. It has been exte
    ```
 2. Navigate to the project directory:
    ```bash
-   cd tic-tac-toe
+   cd tic-tac-test
    ```
 3. Install the dependencies:
    ```bash
@@ -33,7 +33,7 @@ The project uses Jest and React Testing Library for testing. These tools allow f
 
 To run the tests, execute the following command:
 ```bash
-npm run test
+npm test
 ```
 
 ### Test Coverage
