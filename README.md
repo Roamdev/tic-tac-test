@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# Tic-Tac-Toe React Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Description
 
-## Available Scripts
+This project is a React implementation of the Tic-Tac-Toe game. It has been extended to include a player name input form before the game starts, allowing players to personalize their gaming experience.
 
-In the project directory, you can run:
+## Installation and Running
 
-### `npm start`
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Roamdev/tic-tac-test.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd tic-tac-toe
+   ```
+3. Install the dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the project:
+   ```bash
+   npm start
+   ```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Testing
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Tooling
 
-### `npm test`
+The project uses Jest and React Testing Library for testing. These tools allow for effective testing of React components and interactions.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Running Tests
 
-### `npm run build`
+To run the tests, execute the following command:
+```bash
+npm run test
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Test Coverage
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Component Rendering**: Ensures all components render correctly.
+- **User Interaction**: Tests cover basic interactions such as player name input and button clicks.
+- **Edge Cases**: Ensures the game correctly identifies a winner and handles a draw.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Extending Test Coverage
 
-### `npm run eject`
+In a real project, I would add tests for:
+- Testing on various devices and browsers to ensure cross-browser compatibility.
+- Integration testing to verify interactions between components.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Commits
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Initial Commit**: Base project based on the React tutorial.
+- **New Feature**: Added player name input form.
+- **Tests**: Added tests for rendering, interactions, and edge cases.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Conclusion
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project demonstrates basic skills in working with React and component testing. It can be extended for more complex scenarios and integration with other systems.
