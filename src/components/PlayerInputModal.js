@@ -11,7 +11,7 @@ export default function PlayerInputModal({ onSubmit }) {
   };
 
   return (
-    <div className="modal modal-visible">
+    <div className="modal" role="dialog">
       <form onSubmit={handleSubmit} className="modal-form">
         <h2>Enter Player Names</h2>
         <label>
